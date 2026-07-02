@@ -7,29 +7,35 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Welcome to the Dummy Website</h1>
-    <p>This is a placeholder homepage for your project.</p>
-  </header>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="content-wrap">
+        <h1>Welcome to the Static Website</h1>
+        <p>This is a responsive layout that fits the full browser width while keeping content centered.</p>
+      </div>
+    </header>
 
-  <main>
-    <section>
-      <h2>About This Project</h2>
-      <p>
-        This site includes simple example files to get started with a web project.
-      </p>
-    </section>
+    <main class="site-main">
+      <div class="content-wrap">
+        <section>
+          <h2>About This Project</h2>
+          <p>This site includes simple example files to get started with a web project and demonstrates a header, body, and footer layout.</p>
+        </section>
 
-    <section>
-      <h2>Actions</h2>
-      <button id="demoButton">Click Me</button>
-      <p id="demoMessage"></p>
-    </section>
-  </main>
+        <section>
+          <h2>Actions</h2>
+          <button id="demoButton">Click Me</button>
+          <p id="demoMessage"></p>
+        </section>
+      </div>
+    </main>
 
-  <footer>
-    <p>&copy; 2026 Dummy Website. All rights reserved.</p>
-  </footer>
+    <footer class="site-footer">
+      <div class="content-wrap">
+        <p>&copy; 2026 Dummy Website. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
